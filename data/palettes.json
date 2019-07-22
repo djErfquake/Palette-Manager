@@ -1,0 +1,37 @@
+{
+  "palettes": [
+    { "name": "Desert", "description": "Made for a card game.",
+      "colors": ["#006670", "#ff6600", "#ffb800"]
+    },
+    { "name": "SPAR", "description": "by Per Arnoldi",
+      "colors": ["#C2151B", "#2021A0", "#3547B3", "#E2C43F", "#E0DCDD"]
+    },
+    { "name": "Free House of Glass", "description": "https://medium.com/panda-blog/launching-color-farm-80c8e6cdf27a",
+      "colors": ["#b5d369", "#a6dd5d", "#b0d849", "#9fea44", "#eaff35"]
+    },
+    { "name": "Akron", "description": "",
+      "colors": ["#3B3F5B", "#365856", "#31778C", "#D05339", "#EEE6D4", "#323232"]
+    },
+    { "name": "New Orleans Film Festival", "description": "",
+      "colors": ["#F26147", "#00B8DF", "#FFFDE9"]
+    },
+    { "name": "Droplet", "description": "",
+      "colors": ["#F8FCFA", "#D4F2F6", "#DFDDD2", "#8E8F8E", "#FEDE45", "#76C9F2", "#F07D33", "#359CE1"]
+    },
+    { "name": "silinozgur", "description": "foor",
+      "colors": ["#81B295", "#F2CC8E", "#DF7A5E", "#D9D2CA", "#80AEAE"]
+    },
+    { "name": "EDGE by Mike", "description": "https://www.behance.net/gallery/42553135/Various-works-Best-of-2016",
+      "colors": ["#372F44", "#F1F3F2", "#E35F6A", "#7888AC", "#58B9C2", "#EDC57D"]
+    },
+    { "name": "Ray Brown by Mike", "description": "https://dribbble.com/shots/6440475-Ray-Brown-Contemporary-Abstract-Art",
+      "colors": ["#FFFFFF", "#394382", "#F36749", "#F6A72E", "#F9C06A", "#F5B9BF"]
+    },
+    { "name": "Quiz by Mike", "description": "https://dribbble.com/shots/5836646-Quiz-iOS-app-Animation",
+      "colors": ["#0931A5", "#1435B9", "#38CEFB", "#FB6C3D", "#FABF43", "#E33C69", "#FE5786", "#8F62DD", "#FFFFFF"]
+    },
+    { "name": "Web Talks by Mike", "description": "https://dribbble.com/shots/5277816-Web-Talks-Design-conference",
+      "colors": ["#3F0632", "#FDFFFF", "#EF3E38", "#FAA22E", "#16AAAA"]
+    }
+  ]
+}

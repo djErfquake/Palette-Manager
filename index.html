@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Palette Manager</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="vendor/spectrum/spectrum.css">
+    <link rel="stylesheet" href="vendor/photon/css/photon.min.css">
+    <link rel="stylesheet" href="vendor/pushy-buttons/pushy-buttons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type='text/css' href='index.css'>
+
+    <!-- Javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/spectrum/spectrum.js"></script>
+    <script src="vendor/fitty/fitty.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <!-- Wrap your entire app inside .window -->
+    <div class="window">
+
+      <!-- Your app's content goes inside .window-content -->
+      <div class="window-content">
+
+
+        <div class="pane-group">
+
+          <div class="pane-sm sidebar">
+            <ul class="list-group">
+              <li class="list-group-header">
+                <input class="form-control" id="palette-search-input" type="text" oninput="search()" placeholder="Search for someone">
+              </li>
+              <div class="palette-list">
+                <!-- palettes go here -->
+              </div>
+            </ul>
+          </div>
+
+          <div class="pane main-window">
+            <div class="palette-color-pane">
+              <div class="palette-colors">
+                <div class="palette-color-container"></div>
+                <div class="palette-shadow-container"></div>
+              </div>
+              <div class="palette-body">
+                <div class="palette-name"></div>
+                <div class="palette-description"></div>
+
+                <input type='text' id="color-input">
+
+                <div class="bottom-buttons">
+                  <button class="btn btn--lg btn--blue palette-button-add-color">Add Color</button>
+                  <button class="btn btn--lg btn--red palette-button-delete-palette">Delete Palette</button>
+                </div>
+              </div>
+            </div>
+            <div class="color-card">
+              <div class="color-card-text">Testing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="toolbar toolbar-footer">
+        <div class="toolbar-actions">
+          <button class="btn btn-default pull-right"><span class="icon icon-plus-circled"></span></button>
+      </footer>
+
+    </div>
+  </body>
+</html>
